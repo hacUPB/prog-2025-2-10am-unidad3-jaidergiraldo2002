@@ -55,6 +55,25 @@ Inicio
 
 Fin
 ```
+# Prueba de Escritorio:
+### Datos de entrada (Ejemplo):
+`altitud_inicial = 1500`m<br>
+`altitud_objetivo = 3000`m<br>
+`techo_servicio = 1000`m<br>
+Decisiones por minuto (usuario):`[2, 2, 3, 3, 3]`<br>
+donde 1=baja, 2=media, 3=alta.<br>
+Incrementos: 1=100m, 2=200m, 3=400m.<br>
+Numero maximo de minutos: 10(bucle for 1...10)
+
+
+|Minuto|Altitud antes(m)|Decision|Incremento(m)|Altitud despues(m)|¿altitud>=techo(m)?|¿altitud>=objetivo?|Accion/Salida|
+|------|----------------|--------|-------------|------------------|-------------------|-------------------|-------------|
+|1|1500|2|200|1700|No|No|Mostrar altitud, continuar|
+|2|1700|2|200|1900|No|No|continuar|
+|3|1900|3|400|2300|No|No|continuar|
+|4|2300|3|400|2700|No|No|continuar|
+|5|2700|3|400|3100|No|Si|Mostrar "¡El avion alcanzo la altitud objetivo! = break(salir del bucle)"|
+
 
 # Problema 2: Estabilidad en turbulencia
 ### Descripcion:
