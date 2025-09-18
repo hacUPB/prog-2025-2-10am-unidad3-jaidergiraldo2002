@@ -1,3 +1,4 @@
+
 import random
 # ----------------------------
 # PROBLEMA 1: ASCENSO Y ALTITUD
