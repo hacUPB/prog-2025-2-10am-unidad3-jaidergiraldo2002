@@ -69,7 +69,7 @@ def problema_planeador():
        distancia = velocidad * LD * 0.1  # cálculo directo sin función
        distancia_recorrida += distancia
    if distancia_recorrida >= distancia_objetivo * 1000:
-       print("✈ ¡El planeador llegó al aeropuerto!")
+       print("¡El planeador llegó al aeropuerto!")
    else:
        print("El planeador se quedó sin altitud y no llegó.")
 # ----------------------------
