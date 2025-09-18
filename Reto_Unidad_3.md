@@ -207,7 +207,7 @@ Entradas:
 
 altitud_inicial = 1500 m
 
-distancia_objetivo = 1.0 km → objetivo_m = 1000 m
+distancia_objetivo = 1.0 km = objetivo_m = 1000 m
 
 LD = 20
 
@@ -229,7 +229,7 @@ distancia = velocidad * LD * 0.1 = 50 * 20 * 0.1 = 100 m por ciclo. Altitud pier
 |7 |50|mantener|100|700|900 |800 |No|
 |8 |50|mantener|100|800|800 |700 |No|
 |9 |50|mantener|100|900|700 |600 |No|
-|10|50|mantener|100|1000|600|500 |1000 ≥ 1000 → Sí → salir|
+|10|50|mantener|100|1000|600|500 |1000 ≥ 1000 ? Sí = salir|
 
 ### Escenario B Falla: (Objetivo = 5km)
 
@@ -237,7 +237,7 @@ Entradas:
 
 altitud_inicial = 1500 m
 
-distancia_objetivo = 5.0 km → 5000 m
+distancia_objetivo = 5.0 km = 5000 m
 
 LD = 15
 
@@ -266,5 +266,5 @@ Calculamos 15 ciclos (hasta altitud 0):
 |  12 |              75 |               900 |               300 |
 |  13 |              75 |               975 |               200 |
 |  14 |              75 |              1050 |               100 |
-|  15 |              75 |          **1125** |0 → `altitud <= 0` |
+|  15 |              75 |          **1125** |0 = `altitud <= 0` |
 
