@@ -59,7 +59,7 @@ Fin
 ### Datos de entrada (Ejemplo):
 `altitud_inicial = 1500`m<br>
 `altitud_objetivo = 3000`m<br>
-`techo_servicio = 1000`m<br>
+`techo_servicio = 10000`m<br>
 Decisiones por minuto (usuario):`[2, 2, 3, 3, 3]`<br>
 donde 1=baja, 2=media, 3=alta.<br>
 Incrementos: 1=100m, 2=200m, 3=400m.<br>
