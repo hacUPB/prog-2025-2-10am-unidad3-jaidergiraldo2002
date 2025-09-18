@@ -1,7 +1,7 @@
 ## Tabla 1. Checklist de requisitos del reto (por problema)
 
 |Requisito|Cumple 2/Parcialmente 1/No cumple 0|Evidencia(sección/tablas)|
-|---------|----------| --------|
+|---------|-----------------------------------|-------------------------|
 |**Contexto aeronáutico claro y relevante**| 2 |Descripciones de problemas: <br>- Problema 1: ascenso a altitud objetivo. <br>- Problema 2: turbulencias que afectan el ángulo de ataque. <br>- Problema 3: planeador que busca llegar a un aeropuerto con L/D.|
 |**Clara definición y clasificación de las variables (entrada, salida, control, intermedias)**| 2 |Tablas de análisis de variables (hechas para cada problema: altitud, objetivo, perturbación, LD, velocidad, etc.).|
 |**Clara definición de las constantes**| 2 |Tablas de análisis + código: tasas de ascenso fijas (100, 200, 400 m/min), velocidad inicial del planeador = 50 m/s, corrección de ángulo = 4°.|
