@@ -34,16 +34,16 @@ def problema_altitud():
 # ----------------------------
 def problema_turbulencia():
    print("\n--- Simulación de Estabilidad en Turbulencia ---")
-   angulo = 5  # ángulo inicial seguro
+   angulo = 5  
    for segundo in range(1, 11):
-       perturbacion = random.randint(-3, 5)  # turbulencia aleatoria
+       perturbacion = random.randint(-3, 5)  
        angulo += perturbacion
        print(f"\nSegundo {segundo} | Ángulo actual: {angulo}°")
        print("1. Corregir control (reducir ángulo)\n2. No hacer nada")
        decision = int(input("Elija acción: "))
        if decision == 1:
-           angulo -= 4  # corrección del piloto
-       if angulo > 15:  # condición de pérdida
+           angulo -= 4  
+       if angulo > 15: 
            print("El avión entró en pérdida por exceso de ángulo de ataque!")
            break
    else:
@@ -64,10 +64,10 @@ def problema_planeador():
        decision = int(input("Elija acción: "))
        if decision == 2:
            velocidad += 10
-           altitud -= 150  # más velocidad = más pérdida de altitud
+           altitud -= 150  
        else:
-           altitud -= 100  # descenso normal
-       distancia = velocidad * LD * 0.1  # cálculo directo sin función
+           altitud -= 100  
+       distancia = velocidad * LD * 0.1 
        distancia_recorrida += distancia
    if distancia_recorrida >= distancia_objetivo * 1000:
        print("¡El planeador llegó al aeropuerto!")
